@@ -1,6 +1,6 @@
 ﻿namespace Demo
 {
-    public class StockItem
+    internal class StockItem
     {
         public string Name { get; set; }
         public int Quantity { get; set; }

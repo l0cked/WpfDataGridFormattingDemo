@@ -6,7 +6,7 @@ using System.Windows.Media;
 
 namespace Demo
 {
-    public class IsObsoleteToTextDecorationsConverter : IValueConverter
+    internal class IsObsoleteToTextDecorationsConverter : IValueConverter
     {
 
         public object Convert(object value, Type targetType, object parameter, CultureInfo culture)

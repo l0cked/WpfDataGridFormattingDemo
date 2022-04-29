@@ -15,7 +15,7 @@
 
         <Style x:Key="QuantityStyle" TargetType="TextBlock">
             <Setter Property="HorizontalAlignment" Value="Right"/>
-            <Setter Property="Margin" Value="2,0,2,0" />
+            <Setter Property="Margin" Value="2,0,2,0"/>
             <Setter Property="Foreground" Value="{Binding
                 RelativeSource={RelativeSource Self}, 
                 Path=Text, 
@@ -23,7 +23,7 @@
             <Setter Property="TextDecorations" Value="{Binding
                 RelativeSource={RelativeSource AncestorType={x:Type DataGridRow}}, 
                 Path=Item.IsObsolete, 
-                Converter={StaticResource IsObsoleteToTextDecorationsConverter}}" />
+                Converter={StaticResource IsObsoleteToTextDecorationsConverter}}"/>
         </Style>
     </Window.Resources>
     <DataGrid
@@ -37,7 +37,7 @@
                 <Setter Property="Background" Value="{Binding
                     RelativeSource={RelativeSource Self},
                     Path=Item.Quantity,
-                    Converter={StaticResource QuantityToBackgroundConverter}}" />
+                    Converter={StaticResource QuantityToBackgroundConverter}}"/>
             </Style>
         </DataGrid.RowStyle>
         <DataGrid.Columns>

@@ -5,7 +5,7 @@ using System.Windows.Media;
 
 namespace Demo
 {
-    public class QuantityToForegroundConverter : IValueConverter
+    internal class QuantityToForegroundConverter : IValueConverter
     {
 
         public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
